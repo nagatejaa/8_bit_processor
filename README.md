@@ -12,13 +12,13 @@ This project implements an 8-bit processor with the following features:
 
 You can view the processor schematic in the PDF linked below:
 
-[Processor Schematic](/8_bit_computer/schematic.pdf)
+[Processor Schematic](/schematic.pdf)
 
 ## Output Example
 
 Below is an example output image showing the processor in operation:
 
-![Processor Output](/8_bit_computer/processor_output.png)
+![Processor Output](/processor_output.png)
 
 ## Example Program
 
