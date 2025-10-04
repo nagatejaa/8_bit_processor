@@ -1,0 +1,16 @@
+`timescale 1ns / 1ps
+//////////////////////////////////////////////////////////////////////////////////
+// Engineer: Nagateja
+// Create Date: 02.10.2025 22:06:10
+// Design Name: full adder
+// Module Name: fa
+//////////////////////////////////////////////////////////////////////////////////
+
+
+module fa(s,c,a,b,cin);
+input a,b,cin;
+output s,c;
+
+assign s=a^b^cin;
+assign c=(a&b)+(b&cin)+(cin&a);
+endmodule
